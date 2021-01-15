@@ -38,10 +38,8 @@ public class BreadthFirstSearch {
                 }
             }
         }
-
         //让相通的顶点+1；
         count++;
-
     }
 
     //判断w顶点与s顶点是否相通

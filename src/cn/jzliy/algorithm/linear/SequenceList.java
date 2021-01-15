@@ -41,7 +41,6 @@ public class SequenceList<T> implements Iterable<T>{
         if (N==eles.length){
             resize(2*eles.length);
         }
-
         eles[N++]=t;
     }
 

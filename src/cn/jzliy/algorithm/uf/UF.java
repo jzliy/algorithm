@@ -15,12 +15,12 @@ public class UF {
         //初始化eleAndGroup数组
         this.eleAndGroup = new int[N];
 
-        //初始化eleAndGroup中的元素及其所在的组的标识符,让eleAndGroup数组的索引作为并查集的每个结点的元素，并且让每个索引处的值(该元素所在的组的标识符)就是该索引
+        //初始化eleAndGroup中的元素及其所在的组的标识符,让eleAndGroup数组的索引作为并查集的每个结点的元素，
+        // 并且让每个索引处的值(该元素所在的组的标识符)就是该索引
 
         for (int i = 0; i < eleAndGroup.length; i++) {
             eleAndGroup[i] = i;
         }
-
     }
 
     //获取当前并查集中的数据有多少个分组
